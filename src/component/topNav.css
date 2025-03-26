@@ -1,0 +1,28 @@
+.nav-bar{
+    display: flex;
+    gap: 650px;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    /* left: 200px; */
+    right: 50px;
+    padding: 10px 25px 10px 40px;
+    border-radius: 5px;
+}
+
+.left-content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.right-content{
+    display: flex;
+    align-items: center;
+}
+
+.setting{
+    /* margin-left: 25px; */
+}

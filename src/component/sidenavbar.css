@@ -1,0 +1,53 @@
+.sideNav{
+    width: 350px;
+    /* background-color: aqua; */
+    
+}
+.temp{
+    /* background-color: aqua; */
+    padding-left: 10px;
+}
+.home{
+    justify-self: center;
+}
+.logo{
+    justify-self: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.subCategory-visible{
+    background-color: azure;
+    box-shadow: 5px 5px 5px 5px rgba(0.1,0.1,0.1,0.1);
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    background-color: #f4f4f4;
+    padding: 5px;
+}
+.subCategory-none{
+    display: none;
+}
+
+.subCategory-main{
+    cursor: pointer;
+}
+
+.main-category-on{
+    display: flex;
+    background-color: aquamarine;
+    padding-left: 20px;
+}
+.main-category-off{
+    align-self: center;
+    display: flex;
+}
+
+.sideNav-none{
+    display: none;
+    visibility: hidden;
+}

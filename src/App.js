@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { IconName } from "react-icons/ai";
+import SideNavbar from './component/SideNavbar';
+import TopNav from './component/TopNav';
+import { useState } from 'react';
+import MainScreen from './component/MainScreen';
 
 function App() {
+  const [isSidebarOpen, setSidebarOpen] = useState(true);
+  function handleSide(stateUpdater) {
+    stateUpdater(prevState => !prevState);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='home-page'>
+      <TopNav className="top-nav" toggleSidebar={() => handleSide(setSidebarOpen)} />
+      <div className="content">
+        <div className="sidenav">
+          <SideNavbar isOpen={isSidebarOpen} />
+        </div>
+        <div className="main-page">
+          <MainScreen />
+        </div>
+      </div>
     </div>
   );
 }
