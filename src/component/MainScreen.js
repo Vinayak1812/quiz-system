@@ -42,10 +42,7 @@ const MainScreen = () => {
         question={question.questionText}
         answer={question.answer}
         explanation={question.explanation}
-        option1={question.options[0]}
-        option2={question.options[1]}
-        option3={question.options[2]}
-        option4={question.options[3]}
+        options={["Berlin", "Madrid", "Paris", "Rome"]}
       />
     )
   }
