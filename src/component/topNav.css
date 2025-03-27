@@ -2,8 +2,7 @@
     display: flex;
     gap: 650px;
     background-color: aquamarine;
-    justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     height: 60px;
     position: fixed;
     /* left: 200px; */

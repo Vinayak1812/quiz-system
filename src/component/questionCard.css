@@ -57,10 +57,3 @@
 .answer{
     padding: 20px;
 }
-.clicked-ans{
-    background-color: greenyellow;
-}
-
-.wrong-ans-class{
-    background-color: red;
-}

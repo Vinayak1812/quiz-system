@@ -9,16 +9,13 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(236, 234, 234);
     height: 100vh;
     padding: 20px;
-    box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.3);
 
 }
 
-.top-nav{
-    
-}
 .home-page{
     justify-self: center;
 }
